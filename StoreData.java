@@ -30,10 +30,6 @@ public class StoreData {
         catalog0.setCategory(category);
         catalog1.setCategory(category);
 
-//        session.save(category);
-//        session.save(catalog);
-//        session.save(catalog1);
-
         session.persist(category);
 
         t.commit();
